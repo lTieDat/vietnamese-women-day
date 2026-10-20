@@ -84,3 +84,8 @@
   .stage{min-height:0}
 }
 @media(max-width:520px){.stage{align-self:stretch}.experience:not(.opened) .stage{overflow:clip}}
+.page{overflow:clip}
+@media(min-width:851px) and (max-height:800px){
+  .experience{min-height:calc(100svh - 111px)}
+  .stage{min-height:calc(100svh - 131px)}
+}
